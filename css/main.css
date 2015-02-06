@@ -11,3 +11,32 @@ h1{
   color:maroon;
   margin:0em;
 }
+
+header{
+  text-align: center;
+  background-color: yellow;
+  margin: 0em
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav{
+  background-color: yellow;
+  text-align: center;
+  padding:.5em
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em .75em;
+  background-color: grey;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
