@@ -1,0 +1,13 @@
+html {
+  background-color: white;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: "Sigmar One", normal;
+  line-height: 1.5;
+  color:maroon;
+  margin:0em;
+}
