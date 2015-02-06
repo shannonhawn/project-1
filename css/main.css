@@ -14,7 +14,7 @@ h1{
 
 header{
   text-align: center;
-  background-color: yellow;
+  background-color: #ffe524;
   margin: 0em;
 }
 
@@ -29,7 +29,7 @@ h2{
 }
 
 h3{
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: normal;
   font-family: "Sigmar One", normal;
   line-height: 1.5;
@@ -43,16 +43,20 @@ p{
   font-family: "Georgia", normal;
   line-height: 1.5;
   color:black;
-  margin:0em;
+  margin:1em;
 }
 
+em {
+  color:black;
+  font-weight: bold;
+}
 
 nav ul{
   list-style-type: none;
 }
 
 nav{
-  background-color: yellow;
+  background-color:#ffe524;
   text-align: center;
   padding:.5em;
 }
@@ -90,6 +94,19 @@ figure{
   border-radius: 10px;
   border-color:#c5b844;
   text-align:center;
-  padding: 1em 1em 1em 1em;
+  padding: .5em .5em .5em .5em;
   background-color:#fffce0;
+}
+
+footer{
+  background-color:#ffe524;
+  padding:1em;
+}
+
+a{
+  color:maroon;
+}
+
+a:hover {
+  color: darkblue;
 }
