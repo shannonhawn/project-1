@@ -8,15 +8,44 @@ h1{
   font-style: normal;
   font-family: "Sigmar One", normal;
   line-height: 1.5;
-  color:maroon;
+  color:#b32f52;
   margin:0em;
 }
 
 header{
   text-align: center;
   background-color: yellow;
-  margin: 0em
+  margin: 0em;
 }
+
+h2{
+  font-weight:bold;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: "Sigmar One", normal;
+  line-height: 1.5;
+  color:#b32f52;
+  margin:0em;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: "Sigmar One", normal;
+  line-height: 1.5;
+  color:#b32f52;
+  margin:0em;
+}
+
+p{
+  font-size: 1rem;
+  font-style: normal;
+  font-family: "Georgia", normal;
+  line-height: 1.5;
+  color:black;
+  margin:0em;
+}
+
 
 nav ul{
   list-style-type: none;
@@ -25,7 +54,7 @@ nav ul{
 nav{
   background-color: yellow;
   text-align: center;
-  padding:.5em
+  padding:.5em;
 }
 
 nav li{
@@ -35,8 +64,32 @@ nav li{
 nav a{
   display: inline-block;
   padding: 0.5em .75em;
-  background-color: grey;
+  background-color:#b2a215 ;
   color:#fff;
   text-decoration: none;
   border-radius: 4px;
+}
+
+blockquote{
+  font-size:1rem;
+  color:#b2a215;
+}
+
+cite{
+  font-size:1rem;
+  color:#b2a215;
+  text-align:center;
+}
+
+img {
+  width: 100%;
+}
+
+figure{
+  border:1px solid #000;
+  border-radius: 10px;
+  border-color:#c5b844;
+  text-align:center;
+  padding: 1em 1em 1em 1em;
+  background-color:#fffce0;
 }
